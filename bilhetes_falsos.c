@@ -9,6 +9,7 @@ int main () {
         scanf("%d %d", &N, &M);
         if (N == 0 && M == 0) 
             break;
+        
     
     int *vetor = (int *) malloc((N + 1) * sizeof(int));
     if(vetor == NULL) {
